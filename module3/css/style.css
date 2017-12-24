@@ -1,0 +1,197 @@
+body{
+	color: #000000;
+	font-size: 16px;
+	background-color: #ee9;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color: #123;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1{
+	color: #ee9;
+	font-size: 1.5em;
+	font-family: 'Lora', serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #ee9;
+}
+
+.navbar-brand a:hover , .navbar-brand a:focus{
+	text-decoration:none; 
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: white;
+	text-align: center;
+	font-size: 1.8em;
+}
+#nav-list a:hover{
+	background: blue;
+}
+
+#content-collapsed{
+	/*float: left;*/
+	margin-left:-10px;
+
+}
+/*.navbar-toggler{
+	float: left;
+}*/
+/*.container-fluid .row{
+	margin: 3vw;
+}
+.container-fluid .col-md-4, .col-sm-6, .col-xs-12{
+	margin: 2px;
+}
+#one, #two, #three{
+	background-color: #ee9;
+	padding: 2vw;
+}
+.menu1,.menu2, .menu3{
+	width: 100%;
+	text-align: center;
+}
+.amargin{
+	margin-left: 5px;
+}
+#one>h4{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#two>h4{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#three>h4{
+	text-align: center;
+	margin-bottom: 20px;
+}
+*/
+.collapse .menu1{
+	width: 100%;
+	text-align: center;
+}
+.collapse .menu2{
+	width: 100%;
+	text-align: center;
+}
+.collapse .menu3{
+	width: 100%;
+	text-align: center;
+}
+.container>h2{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.row{
+	margin-bottom: 50px;
+}
+.col1{
+	width: 29.9%;
+	margin: 1.5%;
+	background-color: #ee9;
+	float: left;
+	padding: 2vw;
+}
+.col2{
+	width: 29.9%;
+	margin: 1.5%;
+	background-color: #ee9;
+	float: left;
+	padding: 2vw;
+}
+.col3{
+	width: 29.9%;
+	margin: 1.5%;
+	background-color: #ee9;
+	float: left;
+	padding: 2vw;
+}
+.col1>h4{
+	text-align: center;
+	padding: 1px;
+}
+.col2>h4{
+	text-align: center;
+	padding: 1px;
+}
+.col3>h4{
+	text-align: center;
+	padding: 1px;	
+}
+
+
+
+
+@media (min-width:  576px) and (max-width: 991px){
+ .col1{
+ 	width: 46.44%;
+ }
+  .col2{
+ 	width: 46.44%;
+ }
+  .col3{
+ 	width: 95.9%;
+ }
+}
+@media (min-width:  410px) and (max-width: 575px){
+ .col1{
+ 	width: 100%;
+ 	margin: 20px;
+ }
+  .col2{
+ 	width: 100%;
+ 	margin: 20px;
+ }
+  .col3{
+ 	width: 100%;
+ 	margin: 20px;
+ }
+ .navbar-toggler .navbar-toggler-icon{
+	background-color: green;
+	float: right;
+	margin-left:25vw;
+	margin-right: 0;
+	padding: 0;
+	margin-bottom: -5px;
+	
+}
+}
+@media (max-width: 409px){
+.col1{
+ 	width: 100%;
+ 	margin: 20px;
+}
+.col2{
+ 	width: 100%;
+ 	margin: 20px;
+}
+.col3{
+ 	width: 100%;
+ 	margin: 20px;
+}
+.navbar-toggler .navbar-toggler-icon{
+	background-color: green;
+	float: right;
+	margin-left:15vw;
+	margin-right: 0;
+	padding: 0;
+	margin-bottom: -5px;
+	height: 25px;	
+
+}
+.navbar-header .navbar-brand .food{
+	font-size: 25px;
+	margin-left: -20px;
+
+}
+}
